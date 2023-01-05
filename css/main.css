@@ -402,6 +402,11 @@ a:hover {
 -----------------------------------------*/
 .site-footer {
   background: var(--section-bg-color);
+  padding-bottom: 0;
+}
+
+.site-footer a,p {
+  font-size: .9rem;
 }
 
 .map {
@@ -413,7 +418,7 @@ a:hover {
 
 .copyright-footer {
   background: linear-gradient(var(--primary-color) -90%, var(--section-bg-color));
-  margin-top: 5rem;
+  margin-top: 3rem;
   padding: 1rem 0 1rem;
   text-align: center;
 }
